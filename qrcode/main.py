@@ -180,7 +180,7 @@ class QRCode(object):
         pattern = 0
 
         for i in range(8):
-            self.makeImpl(True, i)
+            self.makeImpl(False, i)
 
             lost_point = util.lost_point(self.modules)
 
